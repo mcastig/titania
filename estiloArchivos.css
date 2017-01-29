@@ -1,0 +1,115 @@
+
+#boxArchivos
+{
+   width: 800px;
+   min-height: 500px;
+   position: relative;
+   top: 20px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   border: 1px solid #E7E7E7;
+}
+
+#boxArchivos div:last-child
+{
+   border-bottom: 0px;
+}
+
+#instrucciones
+{
+   position: relative;
+   top: 10px;
+   height: 55px;
+   width: 700px;
+   margin: 0 auto;
+   background: #faa7af;
+   margin-bottom: 10px;
+}
+
+#instrucciones p
+{
+   color: #333;
+   padding: 10px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.contArchivo
+{
+   padding: 10px 0px;
+   border-bottom: 1px solid #F06;
+   width: 760px;
+   margin: 0 auto;
+   height: 85px;
+}
+
+.linkArchivo
+{
+   height: 80px;
+   width: 80px;
+   position: relative;
+   top: 0px;
+   background: #E9F5FE;
+}
+
+.infoArchivo
+{
+   height: 60px;
+   width: 645px;
+   position: relative;
+   padding: 10px;
+   top: -83px;
+   left: 90px;
+   background: #E9F5FE;
+}
+
+.infoArchivo p
+{
+   line-height: 1em;
+}
+
+.info
+{
+   font-weight: bold;
+   color: #F06;
+}
+
+.carpeta
+{
+   height: 80px;
+}
+
+input
+{
+   border: 0px;
+}
+
+.botónBorrar
+{
+   color: #FFF;
+   font-family: helvetica;
+   font-size: 12px;
+   cursor: pointer;
+   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   -moz-border-radius: 7px;
+   -webkit-border-radius: 7px;
+   padding: 0px 3px;
+   position: relative;
+   float: right;
+   top: -5px;
+   width: 60px;
+   height: 30px;
+   background: #272727;
+}
+
+.botónBorrar:hover
+{
+   background: #FF0066;
+}
+
+.botónBorrar:active
+{
+   margin-top: 1px;
+}
+
